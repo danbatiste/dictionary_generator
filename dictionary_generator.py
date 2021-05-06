@@ -3,7 +3,7 @@ import requests
 import time
 import random as rand
 
-# Depracated, do not use
+# Deprecated, do not use
 def scrape_definition_MW(word):
     """Scrapes a definition from Merriam-webster"""
     url = f"https://www.merriam-webster.com/dictionary/{word}"
