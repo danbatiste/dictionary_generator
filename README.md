@@ -1,6 +1,8 @@
 # dictionary_generator
 Generates a dictionary by scraping from Wordnik. Made in a short amount of time for fun, not for use in production.
 
+## How it works
+Starts with the seed word. Gets the definition of the seed word. Stores the definition. Selects the first word in the definition. Repeats the process with this new word.
 
 ## Usage:
 \>>> import dictionary_generator
