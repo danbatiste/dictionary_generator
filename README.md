@@ -1,5 +1,5 @@
 # dictionary_generator
-Generates a dictionary by scraping from Wordnik
+Generates a dictionary by scraping from Wordnik. Made in a short amount of time for fun, not for use in production.
 
 
 ## Usage:
