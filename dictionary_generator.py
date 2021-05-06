@@ -20,6 +20,7 @@ def scrape_definition_MW(word):
     words = ''.join(list(filter(lambda x: x.isalpha() or x==' ', definition))).split(' ')
     return entry, words
 
+# This is the function to use
 def scrape_definition_wordnik(word):
     """Scrapes a definition from wordnik/duckduckgo"""
     word = word.lower() # To make sure it fits the URL scheme
@@ -54,13 +55,8 @@ def scrape_definition_wordnik(word):
 
 
 
-
-
-
-
-
 # Initialize global variables
-# I am initializing them right above main instead of the top of the document
+# Initializing them right above main instead of the top of the document
 # because this is closer to the context they are used in
 super_dict = dict()
 start_time = -1
